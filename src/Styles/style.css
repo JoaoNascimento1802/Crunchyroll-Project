@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #242529;
+}
+
+header img{
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+header h1{
+    color: rgb(175, 83, 7);
+    font-family: 'Inter';
+    font-style: oblique;
+}
+
+#createacount{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Inter';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #131519;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Organiza os campos na vertical */
+    gap: 10px; /* Espaçamento entre os campos */
+    width: 100%; /* Faz o formulário ocupar toda a largura disponível */
+    padding: 10px;
+    max-width: 400px; /* Limita a largura máxima do formulário */
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    width: 100%; /* Faz os campos de input ocuparem toda a largura */
+    border-bottom: 2px solid white;
+    font-family: 'Inter';
+    text-align: left;
+}
+
+
+.container p{
+    color: aliceblue;
+}
+
+
+
+#containerp1{
+    margin-right: 65px;
+}
