@@ -39,16 +39,16 @@ header h1{
     justify-content: center;
     align-items: center;
     background-color: #131519;
-    
 }
 
 form {
     display: flex;
-    flex-direction: column; /* Organiza os campos na vertical */
-    gap: 10px; /* Espaçamento entre os campos */
-    width: 100%; /* Faz o formulário ocupar toda a largura disponível */
+    flex-direction: column; 
+    gap: 10px; 
+    width: 100%; 
     padding: 10px;
-    max-width: 400px; /* Limita a largura máxima do formulário */
+    max-width: 400px; 
+    gap: 20px;
 }
 
 input[type="text"], input[type="password"] {
@@ -56,23 +56,31 @@ input[type="text"], input[type="password"] {
     background: transparent;
     border: none;
     font-size: 16px;
-    width: 100%; /* Faz os campos de input ocuparem toda a largura */
-    border-bottom: 2px solid white;
+    width: 100%; 
+    border-bottom: 2px solid rgb(236, 236, 236);
     font-family: 'Inter';
     text-align: left;
+    font-weight: bold;
 }
-
 
 .container p{
-    color: aliceblue;
+    color: rgb(218, 218, 218);
 }
-
-
 
 #containerp1{
     margin-right: 65px;
+    color: #2D2B2F;
 }
 
 #txt1{
+    margin-top: 50px;
+    color: white;
+}
+
+.termos-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 20px;
     color: white;
 }
